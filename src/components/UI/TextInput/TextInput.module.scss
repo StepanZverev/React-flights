@@ -1,0 +1,36 @@
+.TextInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 7px;
+}
+
+.input {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #c9cacc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 10px 9px;
+    width: 100%;
+    outline: none;
+
+    &.invalid {
+        border: 1px solid #eb1717;
+        box-shadow: 0px 0px 4px rgba(235, 23, 23, 0.2);
+    }
+}
+
+.error {
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #eb1717;
+}

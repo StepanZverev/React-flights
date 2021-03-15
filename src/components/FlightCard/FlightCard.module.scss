@@ -1,0 +1,87 @@
+.FlightCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 12px 17px;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+}
+
+.plane {
+    margin-right: 24px;
+}
+
+.plane_wrapper {
+    width: 64px;
+    height: 64px;
+    background: rgba(0, 119, 255, 0.05);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    flex-grow: 1;
+    padding: 0 12px;
+}
+
+.destination {
+    display: flex;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #424242;
+}
+
+.destination_arrow {
+    padding: 0 12px;
+}
+
+.departureDate {
+    display: flex;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #878787;
+}
+
+.dash {
+    padding: 0 10px;
+}
+
+.carrier {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #878787;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 24px;
+}
+
+.cost {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #878787;
+}
+
+.value {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.like {
+    cursor: pointer;
+}

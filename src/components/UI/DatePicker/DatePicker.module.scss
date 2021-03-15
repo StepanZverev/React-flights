@@ -1,0 +1,26 @@
+.DatePicker {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+.value {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.408px;
+    color: #1157A7;
+}
+
+.img {
+    margin-left: 15px;
+}
+
+.input {
+    position: absolute;
+
+}

@@ -1,0 +1,24 @@
+.Header {
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: normal;
+    letter-spacing: -0.408px;
+    color: #1157a7;
+    text-decoration: none;
+    cursor: pointer;
+    img {
+        margin-left: 20px;
+    }
+}
